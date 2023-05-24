@@ -1,0 +1,33 @@
+.slider {
+    position: relative;
+    // height: 500px;
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    // background-color: red;
+    margin-top: 3rem;
+    /* Adjust as needed */
+    overflow: hidden;
+}
+
+.slides {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    // transition: all 0.9s ease;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    transition: all 0.9s ease;
+}
+
+#btn_box {
+    margin-left: 38%;
+    #minus {
+        transition: all 0.9s ease;
+    }
+}

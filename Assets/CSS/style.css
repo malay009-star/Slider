@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  margin-top: 3rem;
+  /* Adjust as needed */
+  overflow: hidden;
+}
+
+.slides {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  transition: all 0.9s ease;
+}
+
+#btn_box {
+  margin-left: 38%;
+}
+#btn_box #minus {
+  transition: all 0.9s ease;
+}
+
+/*# sourceMappingURL=style.css.map */
